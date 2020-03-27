@@ -1,0 +1,189 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+* serch.index */
+.serch-main {
+    text-align: center;
+}
+
+.serch-top {
+    text-align: center;
+    
+}
+
+.year {
+    font-size: 22px;
+}
+
+
+.top-player-name {
+
+}
+
+
+
+.serch-contents {
+    text-align: center;
+    display: inline-block;
+
+}
+
+.serch-content {
+    width: 650px !important;
+    background-color: #ffff;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    border: 3px solid ;
+    text-align: left;
+    padding: 20px 50px;
+    margin: 30px 0;
+}
+
+.user-info {
+    display: block;
+    text-decoration: none;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.user-info a {
+    
+}
+
+.user-name {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.team-mark {
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+.team-mark-1 {
+    background-color: #ffff;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    
+}
+
+
+
+.team-mark-2 {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.player-name {
+display: inline-block;
+margin-right: 20px;
+font-size: 20px;
+}
+
+.top-team {
+display: inline-block;
+}
+
+.serch-Introduction {
+display: block;
+width: 540px;
+}
+
+
+
+
+
+
+/* post.index */
+
+.post {
+    text-align: center;
+    
+}
+
+.post-top {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.post-top h3 {
+
+}
+
+.post-main {
+    width: 600px;
+    background-color: #ffff;
+    height: 100%;
+    display: inline-block;
+    padding: 30px 0;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.post-main-1 {
+    display: inline-block;
+}
+
+.p-n {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.p-s {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.p-t {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.p-in {
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.p-btn {
+    padding: 0 20px;
+    padding: 10px 30px; 
+    background-color: coral;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.p-btn a {
+    color:#ffff;
+}
+
+.post-main p {
+    
+}
+
+.post-main input {
+    width: 300px;
+}
+
+.post-main select {
+    height: 30px;
+    
+}
+
+.post-main textarea {
+    width: 550px;
+    height: 200px;
+}
