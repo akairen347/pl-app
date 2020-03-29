@@ -22,7 +22,7 @@
 }
 
 .top-page {
-    background-image: url('../img/pl1.png');
+    background-image: url('/pl1.png');
     background-size: cover;
     width: 100%;
     height: 1200px;
