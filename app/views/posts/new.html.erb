@@ -16,43 +16,32 @@
                     <h3>選手情報投稿ページ</h3>
                 </div>
 
+
+                <%= form_tag("/posts/create") do %>
                 <div class="post-main">
 
                   <div class="post-main-1" >
                     <div class="p-n">
                       <p>選手名</p>
-                      <input type="text">
+                      <input type="text" name="name">
                     </div>
 
                     <div class="p-s">
                       <p>シーズン</p>
-                      <select required>
-                        <option value="" hidden>選択して下さい</option>
-                        <option value="1">2019-2020</option>
-                        <option value="2">2018-2019</option>
-                        <option value="3">2017-2018</option>
-                        <option value="4">2016-2018</option>
-                      </select>
+                      <%= f.select :team, [["2019-2020", "2019-2020"], ["2018-2019", "2018-2019"],["2017-2018", "2017-2018"], ["2016-2017", "2016-2017"]], include_blank: "選択して下さい" %>
                     </div>
                     
                   <div class="p-t">
                     <p>チーム</p>
-                    <select required>
-                      <option value="" hidden>選択して下さい</option>
-                      <option value="1">MUN</option>
-                      <option value="2">MCI</option>
-                      <option value="3">CHE</option>
-                      <option value="4">LIV</option>
-                      <option value="5">TOT</option>
-                      <option value="6">ARS</option>
-                    </select>
+                    <%= f.select :team, [["MUN", "MUN"], ["MUC", "MCN"],["ALS", "ASL"], ["TOT", "TOT"],["LIV", "LIV"], ["CHE", "CHE"]], include_blank: "選択して下さい" %>
+
                   </div>
                   
                   </div>
                   
                   <div class="p-in">
                     <p>選手情報</p>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="content" id="" cols="30" rows="10"></textarea>
                   </div>
 
                   <div class="p-btn">
@@ -60,6 +49,7 @@
                   </div>
                   
                 </div>
+                <% end  %>
                 
 
               </div>
