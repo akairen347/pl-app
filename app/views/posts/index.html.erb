@@ -1,2 +1,64 @@
-<h1>Posts#index</h1>
-<p>Find me in app/views/posts/index.html.erb</p>
+<div class="show-wrapper">
+                  <div class="cnt">
+
+
+                    <div class="show-contents">
+
+                    <% @posts.each do |post| %>
+                      <div class="show-content">
+                        <div class="s-info">
+                          <img src="img/pl2.jpg" alt="">
+                          <p class="user-name">れん</p>
+                          <a class="team-mark team-mark-1" href="">TOT</a>
+                          <a class="team-mark team-mark-2" href="">MUN</a>
+                        </div>
+                        <div class="s-info">
+                        <p><%= post.name %></p>
+                        <p><%= post.team %></p>
+                        <p><%= post.content %></p>
+                        </div>
+                      </div>
+                    <% end %>
+
+                      <div class="show-content">
+                        <div class="s-info">
+                          <img src="img/pl2.jpg" alt="">
+                          <p class="user-name">れん</p>
+                          <a class="team-mark team-mark-1" href="">TOT</a>
+                          <a class="team-mark team-mark-2" href="">MUN</a>
+                        </div>
+                        <div class="s-info">
+                          <p class="s-player-name">Roberto Firmino</p>
+                          <p class="s-top-team">Liverpool</p>
+                          <p class="">リヴァプールのスリリングスリーの中では一番得点数が少ないものの、一番替えのきかない選手。視野の広さやテクニックはもちろん、プレスバックの守備や周りとの連携などこれだけのタスクを全てこなせる選手は世界中にフィルミーのしかいないと思っています</p>
+                        </div>
+                      </div>
+
+
+                      <div class="show-content">
+                        <div class="s-info">
+                          <img src="img/pl2.jpg" alt="">
+                          <p class="user-name">れん</p>
+                          <a class="team-mark team-mark-1" href="">TOT</a>
+                          <a class="team-mark team-mark-2" href="">MUN</a>
+                        </div>
+                        <div class="s-info">
+                          <p class="s-player-name">Mesut Özil</p>
+                          <p class="s-top-team">Arsenal</p>
+                          <p class="s-content">視野が広く左足のキック精度が高くすごくエレガントなプレーをする。守備面での貢献度が低いためよく「エジルは運動量がない」などと言われがちだが攻撃時のポジションの取り直しなどでかなり動いているため意外と走行距離は多い
+                          </p>
+                        </div>
+                      </div>
+
+
+                    </div>
+
+
+                  </div>
+
+                  
+
+
+
+
+                </div>
