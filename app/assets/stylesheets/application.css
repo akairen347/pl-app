@@ -80,3 +80,16 @@ margin-top: 10px;
     background-color: darkblue;
     padding: 0 40px;
 }
+
+
+
+
+
+
+.new-wrapper {
+    text-align: center;
+    background-color: #ffff;
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
