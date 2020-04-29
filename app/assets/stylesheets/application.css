@@ -84,6 +84,11 @@ margin-top: 10px;
 
 
 
+/*
+ devise 
+ new.html.erb
+ */
+
 
 
 .new-wrapper {
@@ -92,4 +97,17 @@ margin-top: 10px;
     width: 600px;
     margin: auto;
     margin-top: 30px;
+}
+
+.tex-l {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.new-mail {
+    width: 500px;
+}
+
+.new-pass {
+    width: 500px;
 }
