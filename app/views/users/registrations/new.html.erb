@@ -8,27 +8,27 @@
   <div class="field tex-l">
   <p>メールアドレス</p>
   <div class="new-mail">
-  <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  <%= f.email_field :email, autofocus: true, autocomplete: "email" , class: "texfeed" %>
   </div>
   </div>
 
   <div class="field tex-l">
     <p>パスワード</p>
     <div class="new-pass">
-    <%= f.password_field :password, autocomplete: "new-password" %>
+    <%= f.password_field :password, autocomplete: "new-password" , class: "texfeed" %>
     </div>
   </div>
 
   <div class="field tex-l">
     <p>パスワード確認用</p>
     <div class="new-pass">
-    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+    <%= f.password_field :password_confirmation, autocomplete: "new-password" , class: "texfeed" %>
     </div>
   </div>
 
   <div class="actions tex-l">
   <div class="new-btn">
-  <%= f.submit "登録" %>
+  <%= f.submit "登録" , class: "btn-m" %>
   </div>
   </div>
 <% end %>

@@ -111,3 +111,15 @@ margin-top: 10px;
 .new-pass {
     width: 500px;
 }
+
+.texfeed {
+    width: 300px;
+    height: 20px;
+}
+
+.btn-m {
+    padding: 5px 30px;
+    background-color: orange;
+    border-radius: 50px;
+    margin: 20px 0;
+}
