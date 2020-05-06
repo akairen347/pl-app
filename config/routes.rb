@@ -13,8 +13,7 @@ Rails.application.routes.draw do
 
   get "/" => "home#top"
 
-
-
+  
 
 
     get 'login', to: 'devise/sessions#new'
