@@ -13,10 +13,10 @@ Rails.application.routes.draw do
 
   get "/" => "home#top"
 
-  
 
 
-    get 'login', to: 'devise/sessions#new'
+
+    get '/users/login', to: 'devise/sessions#new'
     post 'login', to: 'devise/sessions#create'
     delete 'signout', to: 'devise/sessions#destroy'
 
