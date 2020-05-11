@@ -5,6 +5,14 @@ class Users::SessionsController < Devise::SessionsController
 def login
 
 end
+
+def new
+
+end
+
+def destroy
+
+end
   # GET /resource/sign_in
   # def new
   #   super
