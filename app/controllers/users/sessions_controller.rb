@@ -13,6 +13,14 @@ end
 def destroy
 
 end
+
+def signup
+
+end
+
+def logout 
+
+end
   # GET /resource/sign_in
   # def new
   #   super
