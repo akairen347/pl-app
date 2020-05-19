@@ -15,6 +15,7 @@
               <div class="header-right">
                   <div class="header-right-contents">
                     <%= link_to("PLGATEってなに？","/") %>
+
                   <% if @current_user %>
                     <a><%= link_to("新規投稿", "/posts/new") %></a>
                     <a><%= link_to("ログアウト", "/logout", {method: :post}) %></a>
@@ -22,6 +23,7 @@
                     <a><%= link_to("新規登録", "/signup") %></a>
                     <a><%= link_to("ログイン", "/login") %></a>
                   <% end %>
+                  
                   </div>
               </div>
               
