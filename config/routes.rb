@@ -20,5 +20,5 @@ Rails.application.routes.draw do
     post 'login', to: 'devise/sessions#create'
     delete 'signout', to: 'devise/sessions#destroy'
     post "signup" => "devise/sessions#signup"
-    post "logout" => "devise/sessions#logout"
+    get 'logout' => 'devise/sessions#destroy'
 end
