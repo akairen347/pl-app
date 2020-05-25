@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'posts/index'
   devise_for :users
   get 'home/top'
   get 'homes/index'
