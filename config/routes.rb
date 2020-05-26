@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   get "/" => "home#top"
 
 
+  get "posts/:id/edit" => "posts#edit"
+  post "posts/:id/update" => "posts#update"
 
 
     get 'login', to: 'devise/sessions#new'
