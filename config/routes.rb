@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
+
+  get "users/:id/edit" => "users#edit"
   get 'posts/index'
   devise_for :users
   get 'home/top'
   get 'homes/index'
   get 'users/index' => "users#index"
+  get "users/:id" => "users#show"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get "posts/index" => "posts#index"
 

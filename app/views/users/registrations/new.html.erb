@@ -6,6 +6,13 @@
   <%= render "devise/shared/error_messages", resource: resource %>
 
   <div class="field tex-l">
+  <p>ユーザー名</p>
+  <div class="new-mail">
+  <%= f.name_field :name, autofocus: true, autocomplete: "name" , class: "texfeed" %>
+  </div>
+  </div>
+
+  <div class="field tex-l">
   <p>メールアドレス</p>
   <div class="new-mail">
   <%= f.email_field :email, autofocus: true, autocomplete: "email" , class: "texfeed" %>

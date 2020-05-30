@@ -1,0 +1,45 @@
+ <div class="post">
+
+                  <div class="cnt">
+                    <div class="post-top">
+                    <h3>選手情報投稿ページ</h3>
+                </div>
+
+
+                <%= form_tag("/posts/create") do %>
+                <div class="post-main">
+
+                  <div class="post-main-1" >
+                    <div class="p-n">
+                      <p>選手名</p>
+                      <input type="text" name="name">
+                    </div>
+
+                    <div class="p-s">
+                      <p>シーズン</p>
+                      <%= f.select :team, [["2019-2020", "2019-2020"], ["2018-2019", "2018-2019"],["2017-2018", "2017-2018"], ["2016-2017", "2016-2017"]], include_blank: "選択して下さい" %>
+                    </div>
+                    
+                  <div class="p-t">
+                    <p>チーム</p>
+                    <%= f.select :team, [["MUN", "MUN"], ["MUC", "MCN"],["ALS", "ASL"], ["TOT", "TOT"],["LIV", "LIV"], ["CHE", "CHE"]], include_blank: "選択して下さい" %>
+
+                  </div>
+                  
+                  </div>
+                  
+                  <div class="p-in">
+                    <p>選手情報(250文字以内)</p>
+                    <textarea name="content" id="" cols="30" rows="10"></textarea>
+                  </div>
+
+                  <div class="p-btn">
+                    <a href="">送信</a>
+                  </div>
+                  
+                </div>
+                <% end  %>
+                
+
+              </div>
+          </div>
