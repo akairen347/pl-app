@@ -39,6 +39,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 
+gem 'carrierwave'
+
 
 
 # Reduces boot times through caching; required in config/boot.rb
